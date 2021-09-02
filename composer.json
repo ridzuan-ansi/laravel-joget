@@ -1,0 +1,30 @@
+{
+    "name": "kerisi/laravel-joget",
+    "description": "Laravel integration with Joget Workflow",
+    "type": "library",
+    "require": {
+        "laravel/framework": "8.x-dev",
+        "guzzlehttp/guzzle": "7.0.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kerisi\\LaravelJoget\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ridzuan Mohamad",
+            "email": "ridzuan@ansi.com.my"
+        }
+    ],
+    "minimum-stability": "dev",
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kerisi\\LaravelJoget\\JogetDxAPIServiceProvider"
+            ]
+        }
+    }
+}
